@@ -88,4 +88,4 @@ abarroteria_kinal_in4bv
 AUTOR
 -----
 Jonathan Guerra
-Proyecto academico — Universidad Kinal 2026
+Proyecto academico — Fundación Kinal 2026
