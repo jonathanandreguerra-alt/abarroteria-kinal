@@ -1,0 +1,82 @@
+/* =========================================================
+   PALETA 60-30-10 — Colores institucionales Kinal
+   60% Base:      #F5F7FA (gris muy claro)
+   30% Secundario:#1B3A6B (azul institucional)
+   10% Acento:    #D4A017 (dorado)
+   ========================================================= */
+
+/* 60% — fondo dominante */
+.root {
+    -fx-background-color: #F5F7FA;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+}
+
+/* contenedores tipo "tarjeta" */
+.card, .grid-pane, .v-box {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 16;
+}
+
+/* 30% — labels y textos de jerarquía */
+.label {
+    -fx-text-fill: #1B3A6B;
+    -fx-font-weight: bold;
+}
+
+/* títulos más grandes si los usas */
+.titulo {
+    -fx-text-fill: #142C52;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+/* inputs: neutros, con borde 30% sutil */
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-background-radius: 6;
+    -fx-border-color: #B7C5DA;
+    -fx-border-radius: 6;
+    -fx-padding: 8;
+    -fx-text-fill: #1f2937;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #D4A017;
+    -fx-border-width: 2;
+}
+
+/* 10% — acento en botones (la acción principal) */
+.button {
+    -fx-background-color: #D4A017;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 9 20 9 20;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #B98A12;
+}
+
+.button:pressed {
+    -fx-background-color: #9C740F;
+}
+
+/* botón secundario (cancelar, volver, etc.) */
+.button-secundario {
+    -fx-background-color: transparent;
+    -fx-text-fill: #1B3A6B;
+    -fx-border-color: #1B3A6B;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-weight: bold;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.button-secundario:hover {
+    -fx-background-color: #EDF1F7;
+}
