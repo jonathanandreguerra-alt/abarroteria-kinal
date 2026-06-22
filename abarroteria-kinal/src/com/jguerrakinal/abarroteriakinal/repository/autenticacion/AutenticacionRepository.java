@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class AutenticacionRepository {
 
     public void save(Usuario usuario) {
-        String sql = "INSERT INTO usaurios (id_usuario, nombre, apellido, email, contrasena, id_rol) VALUES (?,?,?,?,?,?)";
+        String sql = "INSERT INTO usuarios (id_usuario, nombre, apellido, email, contrasena, id_rol) VALUES (?,?,?,?,?,?)";
         try (Connection conn = MySQLConnection.getConnection();
              PreparedStatement pstm = conn.prepareStatement(sql)) {
 

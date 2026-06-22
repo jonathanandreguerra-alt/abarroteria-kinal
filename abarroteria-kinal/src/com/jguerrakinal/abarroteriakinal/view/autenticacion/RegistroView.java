@@ -55,6 +55,7 @@ public class RegistroView {
         this.gridPane = new GridPane();
         this.stackPaneRoot = new StackPane();
         buildUi();
+        eventosBotones();
     }
 
     private void buildUi(){
